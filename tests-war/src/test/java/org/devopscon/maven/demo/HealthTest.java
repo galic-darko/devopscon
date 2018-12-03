@@ -18,6 +18,9 @@ public class HealthTest {
 		appurl = TomcatPropsHandler.getAppurl();
 	}
 
+	public static void justAnTest() {
+		System.out.println("Test");
+	}
 
 	@Test
 	public void testResponseCode() {
